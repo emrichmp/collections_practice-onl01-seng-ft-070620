@@ -16,6 +16,13 @@ def sort_array_desc(array)
   end
 end
 
-def sort_array_char_count
-  
+def sort_array_char_count(array)
+  array.sort do |a,b|
+    if array[a] == array [b]
+      0
+    elsif array[a] < array[b]
+      -1
+    elsif array[a] > array[b]
+      1
+  end
 end
