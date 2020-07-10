@@ -36,5 +36,6 @@ def kesha_maker
   array.each do |word|
     word[2] = "$"
   end
+  array
 end
 
