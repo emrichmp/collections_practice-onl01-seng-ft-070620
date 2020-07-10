@@ -31,3 +31,7 @@ def reverse_array(array)
   array.reverse!
   array
 end
+
+def kesha_maker
+  
+end
