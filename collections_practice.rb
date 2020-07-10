@@ -48,6 +48,6 @@ end
 
 def sum_array(array)
   array.inject do |total, num|
-    
+    total+num
   end
 end
